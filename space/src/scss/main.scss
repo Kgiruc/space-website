@@ -2,3 +2,8 @@
 @import "src/scss/settings/fonts";
 @import "src/scss/settings/fonts";
 @import "src/scss/settings/colors";
+
+body{
+  font-size: $font-head1;
+  font-family: $font-base;
+}
