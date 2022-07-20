@@ -1,9 +1,10 @@
+@import "componenets-style/home";
+@import "componenets-style/navigation";
 @import "src/scss/reset";
 @import "src/scss/settings/fonts";
 @import "src/scss/settings/fonts";
 @import "src/scss/settings/colors";
 
 body{
-  font-size: $font-head1;
-  font-family: $font-base;
+color: $color-white;
 }
