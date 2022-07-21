@@ -1,9 +1,8 @@
+@import "src/scss/settings/fonts";
+@import "src/scss/settings/colors";
 @import "componenets-style/home";
 @import "componenets-style/navigation";
 @import "src/scss/reset";
-@import "src/scss/settings/fonts";
-@import "src/scss/settings/fonts";
-@import "src/scss/settings/colors";
 
 body{
 color: $color-white;
