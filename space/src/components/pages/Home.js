@@ -4,7 +4,7 @@ function Home() {
     return (
         <div className="home__container">
             <Links />
-            <section>
+            <section className="home__container__section">
                 <span>SO, YOU WANT TO TRAVEL TO</span>
                 <h1>SPACE</h1>
                 <p>

@@ -16,7 +16,7 @@ hr{
   color: $color-white;
   width:473px;
   text-align:left;
-  margin-left:84px;
+  margin-left:107px;
   margin-top: 88px;
   opacity: 0.25;
   position: absolute;
@@ -50,6 +50,7 @@ hr{
 
       span{
         font-weight: 700;
+        border: 3px solid transparent;
       }
   }
 }
@@ -58,7 +59,7 @@ a{
   text-decoration: none;
 
   :hover{
-    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 3px solid $color-grey-trans;
   }
 
   :active{
