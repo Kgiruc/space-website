@@ -1,4 +1,5 @@
 import Links from "../Links";
+import {Link} from "react-router-dom"
 
 function Home() {
     return (
@@ -13,7 +14,11 @@ function Home() {
                     a truly out of this world experience!
                 </p>
             </section>
-            <button>EXPLORE</button>
+            <Link to="/destination">
+                <button className="home__btn">
+                    EXPLORE
+                </button>
+            </Link>
         </div>
     );
 }

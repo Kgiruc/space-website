@@ -31,9 +31,28 @@
 }
 
 .home__container p {
+  width: 444px;
+  height: 128px;
   font-family: $font-alt;
   font-weight: 400;
   color: $color-purple;
   font-size: $font-general;
   line-height: 32px;
+}
+
+.home__btn{
+  position: absolute;
+  top: 495px;
+  right: 165px;
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  font-family: $font-base;
+  font-size: $font-head4;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+    &:hover{
+      outline: 88px solid rgba(225,225,225, 0.1);
+    }
 }
