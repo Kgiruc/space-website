@@ -36,6 +36,7 @@ hr{
     justify-content: center;
     gap: 48px;
     align-items: center;
+    text-decoration: none;
   }
 
   li{
@@ -44,8 +45,23 @@ hr{
     font-weight: 400;
     font-family: $font-alt;
     letter-spacing: 2.7px;
+    border: 3px solid transparent;
+    padding: 40px 0;
+
       span{
         font-weight: 700;
       }
+  }
+}
+
+a{
+  text-decoration: none;
+
+  :hover{
+    border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+  }
+
+  :active{
+    border-bottom: 3px solid $color-white;
   }
 }

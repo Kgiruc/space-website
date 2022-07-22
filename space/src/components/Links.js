@@ -1,4 +1,5 @@
 import Logo from "../assets/shared/logo.svg";
+import {Link} from "react-router-dom";
 
 function Links() {
     return (
@@ -7,10 +8,10 @@ function Links() {
             <hr></hr>
         <nav className="links__container">
             <ul>
-                <li><span>00</span> HOME</li>
-                <li><span>01</span> DESTINATION</li>
-                <li><span>02</span> CREW</li>
-                <li><span>03</span> TECHNOLOGY</li>
+                <Link to="/" ><li><span>00</span> HOME</li></Link>
+                <Link to="/destination"><li><span>01</span> DESTINATION</li></Link>
+                <Link to="/crew"><li><span>02</span> CREW</li></Link>
+                <Link to="/technology"><li><span>03</span> TECHNOLOGY</li></Link>
             </ul>
         </nav>
         </header>
