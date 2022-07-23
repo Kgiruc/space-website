@@ -7,7 +7,7 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
-import Destination from "./components/pages/Destination";
+import Destination from "./components/pages/destination/Destination";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
