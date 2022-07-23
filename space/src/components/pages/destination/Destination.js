@@ -1,23 +1,27 @@
-import { useState } from "react";
-import Planetlist from "./Planetlist";
+import items from "./Planetlist"
+import {useState} from "react";
+import ButtonsDes from "./Buttons-des";
+import Menu from "./Menu";
+import Links from "../../Links"
+
+const planet = items.filter(item => item.title === "MOON")
+const allCategories = [...new Set(items.map(item => item.title))];
 
 function Destination() {
-    const [planets, setPlanets] = useState([
-        {title:'Mars', body: 'osz ty kurwa mars', author: 'osz ty autor', id:1},
-        {title:'pluton', body: 'osz ty kurwa pluton', author: 'osz ty kurwa', id:2},
-        {title:'saturn', body: 'osz ty kurwa msaturn', author: 'osz ty suka', id:3},
-        {title:'ziemia', body: 'osz ty kurwa ziemia kurwa', author: 'osz ty bydlo', id:4},
-    ])
+    const [menuItem, setMenuItem] = useState(planet);
+    const [buttons, setButtons] = useState(allCategories);
 
-    const handleChange = (id) => {
-        const newPlanet = {planets.filter((planets) => planets.id === 2)};
-        setPlanets(newPlanet);
+    const filter = (button) =>{
+        const filteredData = items.filter(item => item.title === button)
+        setMenuItem(filteredData);
     }
-
     return (
         <div className="destination__container">
-            <Planetlist planets={planets.filter((planets)=> planets.id === 1)} handleChange={handleChange} />
+            <Links />
+            <Menu menuItem={menuItem} />
+            <ButtonsDes button={buttons} filter={filter}/>
         </div>
+
     );
 }
 
