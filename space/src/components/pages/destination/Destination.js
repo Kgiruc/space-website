@@ -18,10 +18,10 @@ function Destination() {
     return (
         <div className="destination__container">
             <Links />
-            <Menu menuItem={menuItem} />
+            <p className="subhead1"><span>01 </span>PICK YOUR DESTINATION</p>
             <ButtonsDes button={buttons} filter={filter}/>
+            <Menu menuItem={menuItem} />
         </div>
-
     );
 }
 

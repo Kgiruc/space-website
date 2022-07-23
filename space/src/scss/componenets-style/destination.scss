@@ -8,6 +8,122 @@
   position: absolute;
 }
 
-.planet__container{
- color: red;
+.subhead1{
+  font-size: $font-subhead1;
+  font-family: $font-alt;
+  line-height: 33.6px;
+  letter-spacing: 4.72px;
+  margin-left: 166.5px;
+  margin-top: 76px;
+  color: $color-white;
+  font-weight: 400;
+
+    span{
+      opacity: 0.25;
+      font-weight: 700;
+    }
 }
+
+.planet__btn{
+  display: flex;
+  justify-content: flex-end;
+  gap: 36px;
+  margin-right: 322.5px;
+  margin-top: 64px;
+  button {
+    font-weight: 400;
+    color: $color-purple;
+    background-color: transparent;
+    border: none;
+    font-size: $font-typical;
+    font-family: $font-alt;
+    letter-spacing: 2.7px;
+    line-height: 19.2px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid transparent;
+      &:hover{
+        border-bottom: 3px solid $color-grey-trans;
+        cursor: pointer;
+      }
+      &:active{
+        color: $color-white;
+        border-bottom: 3px solid $color-white;
+      }
+  }
+}
+
+.planet__container{
+  display: flex;
+  justify-content: center;
+  gap: 157.5px;
+  margin-right: 30px;
+
+}
+
+.planet__container__subs{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 445px;
+  margin-top: 37px;
+
+  h2{
+    color: $color-white;
+    font-weight: 400;
+    font-size: $font-head2;
+    font-family: $font-base;
+    line-height: 114.6px;
+  }
+
+    p{
+      color: $color-purple;
+      font-family: $font-alt;
+      font-size: $font-general;
+      line-height: 32px;
+      width: 444px;
+      margin-bottom: 54px;
+      text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      font-style: normal;
+    }
+
+      hr{
+        border: 1px solid $color-hr;
+        width: 444px;
+        margin-bottom: 28px;
+      }
+}
+
+.planet__results{
+  display: flex;
+  flex-direction: row;
+  gap:79px;
+
+      span{
+        line-height: 16.8px;
+        font-size: $font-subhead2;
+        font-family: $font-alt;
+        color: $color-purple;
+        letter-spacing: 2.3625px;
+        margin-bottom: 12px;
+      }
+}
+
+.planet__results__points{
+  display: flex;
+  gap: 39px;
+  p{
+    margin-bottom: 0;
+    font-style: normal;
+    font-family: $font-base;
+    font-size: $font-subhead1;
+    color: $color-white;
+    line-height: 32.09px;
+  }
+}
+
+.planet__img{
+  width: 445px;
+  height: 445px;
+}
+

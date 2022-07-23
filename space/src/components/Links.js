@@ -5,7 +5,7 @@ function Links() {
     return (
         <header className="menu__container">
         <img src={Logo} alt="logo" />
-            <hr></hr>
+            <hr className="line__nav"></hr>
         <nav className="links__container">
             <ul>
                 <Link to="/" ><li><span>00</span> HOME</li></Link>
