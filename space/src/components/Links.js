@@ -1,5 +1,5 @@
 import Logo from "../assets/shared/logo.svg";
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 function Links() {
     return (
@@ -8,10 +8,10 @@ function Links() {
             <hr className="line__nav"></hr>
         <nav className="links__container">
             <ul>
-                <Link to="/" ><li><span>00</span> HOME</li></Link>
-                <Link to="/destination"><li><span>01</span> DESTINATION</li></Link>
-                <Link to="/crew"><li><span>02</span> CREW</li></Link>
-                <Link to="/technology"><li><span>03</span> TECHNOLOGY</li></Link>
+                <NavLink to="/" ><li><span>00</span> HOME</li></NavLink>
+                <NavLink to="/destination"><li><span>01</span> DESTINATION</li></NavLink>
+                <NavLink to="/crew"><li><span>02</span> CREW</li></NavLink>
+                <NavLink to="/technology"><li><span>03</span> TECHNOLOGY</li></NavLink>
             </ul>
         </nav>
         </header>

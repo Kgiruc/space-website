@@ -128,3 +128,15 @@
   width: 445px;
   height: 445px;
 }
+
+button.active{
+  color: $color-purple;
+  background-color: transparent;
+  border: none;
+  font-size: $font-typical;
+  font-family: $font-alt;
+  letter-spacing: 2.7px;
+  line-height: 19.2px;
+  padding-bottom: 12px;
+  border-bottom: 3px solid $color-white;
+}

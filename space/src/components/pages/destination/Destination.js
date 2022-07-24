@@ -19,7 +19,7 @@ function Destination() {
         <div className="destination__container">
             <Links />
             <p className="subhead1"><span>01 </span>PICK YOUR DESTINATION</p>
-            <ButtonsDes button={buttons} filter={filter}/>
+            <ButtonsDes   button={buttons} filter={filter}/>
             <Menu menuItem={menuItem} />
         </div>
     );
