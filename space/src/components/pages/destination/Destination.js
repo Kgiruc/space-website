@@ -11,17 +11,18 @@ function Destination() {
     const [menuItem, setMenuItem] = useState(planet);
     const [buttons, setButtons] = useState(allCategories);
 
+
     const filter = (button) =>{
         const filteredData = items.filter(item => item.title === button)
         setMenuItem(filteredData);
     }
     return (
-        <div className="destination__container">
+        <section className="destination__container">
             <Links />
             <p className="subhead1"><span>01 </span>PICK YOUR DESTINATION</p>
-            <ButtonsDes   button={buttons} filter={filter}/>
+            <ButtonsDes  button={buttons} filter={filter} />
             <Menu menuItem={menuItem} />
-        </div>
+        </section>
     );
 }
 
