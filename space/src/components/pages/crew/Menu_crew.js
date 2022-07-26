@@ -3,9 +3,9 @@ function Menu_crew({menuItem}) {
         <>
             {
                 menuItem.map((item) => {
-                    return <section className="planet__container" key={item.id}>
+                    return <section className="crew__menu__container" key={item.id}>
                         <article className="crew__container__subs">
-                            <h2>{item.title}</h2>
+                            <h4>{item.title}</h4>
                             <span>{item.name}</span>
                             <p>{item.body}</p>
                         </article>

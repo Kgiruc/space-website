@@ -7,3 +7,56 @@
   height: 100vh;
   position: absolute;
 }
+
+.crew__menu__container{
+  display: flex;
+  justify-content: center;
+  gap: 157.5px;
+}
+
+.crew__container__subs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 445px;
+  margin-top: 154px;
+
+  h4 {
+    color: $color-white;
+    font-weight: 400;
+    font-size: $font-head4;
+    font-family: $font-base;
+    line-height: 36.67px;
+    opacity: 0.5;
+  }
+
+  p {
+    color: $color-purple;
+    font-family: $font-alt;
+    font-size: $font-general;
+    line-height: 32px;
+    width: 444px;
+    margin-bottom: 54px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+  }
+
+  span{
+
+  }
+}
+
+.crew__btn{
+  display: inline-block;
+  position: absolute;
+  width: 132px;
+  height: 15px;
+  left: 167px;
+  top: 791px;
+}
+
+.crew__img{
+  width: auto;
+  height: auto;
+}
