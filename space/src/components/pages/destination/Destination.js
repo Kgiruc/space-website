@@ -1,7 +1,7 @@
 import items from "./Planetlist"
 import {useState} from "react";
 import ButtonsDes from "./Buttons-des";
-import Menu from "./Menu";
+import Menu_des from "./Menu_des";
 import Links from "../../Links"
 
 const planet = items.filter(item => item.title === "MOON")
@@ -21,7 +21,7 @@ function Destination() {
             <Links />
             <p className="subhead1"><span>01 </span>PICK YOUR DESTINATION</p>
             <ButtonsDes  button={buttons} filter={filter} />
-            <Menu menuItem={menuItem} />
+            <Menu_des menuItem={menuItem} />
         </section>
     );
 }
