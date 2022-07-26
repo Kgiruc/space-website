@@ -4,13 +4,12 @@ function Menu_crew({menuItem}) {
             {
                 menuItem.map((item) => {
                     return <section className="planet__container" key={item.id}>
-                        <article className="planet__container__subs">
+                        <article className="crew__container__subs">
                             <h2>{item.title}</h2>
                             <span>{item.name}</span>
                             <p>{item.body}</p>
                         </article>
-                        <img className="planet__img" src={item.img} alt="planet" />
-
+                        <img className="crew__img" src={item.img} alt="planet"/>
                     </section>
                 })
             }

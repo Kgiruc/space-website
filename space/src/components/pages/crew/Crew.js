@@ -20,8 +20,8 @@ function Crew() {
         <section className="crew__container">
             <Links />
             <p className="subhead1"><span>02 </span>MEET YOUR CREW</p>
-            <ButtonsDes  button={buttons} filter={filter} />
             <Menu_crew menuItem={menuItem} />
+            <ButtonsDes  button={buttons} filter={filter} />
         </section>
     );
 }
