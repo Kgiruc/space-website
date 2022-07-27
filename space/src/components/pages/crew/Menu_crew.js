@@ -6,7 +6,7 @@ function Menu_crew({menuItem}) {
                     return <section className="crew__menu__container" key={item.id}>
                         <article className="crew__container__subs">
                             <h4>{item.title}</h4>
-                            <span>{item.name}</span>
+                            <h3>{item.name}</h3>
                             <p>{item.body}</p>
                         </article>
                         <img className="crew__img" src={item.img} alt="planet"/>

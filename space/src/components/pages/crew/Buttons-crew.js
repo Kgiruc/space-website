@@ -1,5 +1,3 @@
-
-
 function ButtonsDes({button, filter}) {
 
     return (

@@ -1,4 +1,4 @@
-.crew__container{
+.crew__container {
   background-image: url("../../assets/crew/background-crew-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,10 +8,11 @@
   position: absolute;
 }
 
-.crew__menu__container{
+.crew__menu__container {
   display: flex;
-  justify-content: center;
-  gap: 157.5px;
+  justify-content: flex-start;
+  margin-left: 165.5px;
+
 }
 
 .crew__container__subs {
@@ -31,32 +32,60 @@
     opacity: 0.5;
   }
 
+  h3 {
+    color: $color-white;
+    font-family: $font-base;
+    line-height: 64.18px;
+    font-size: $font-head3;
+    font-weight: 400;
+    letter-spacing: 0;
+    width: 800px;
+    margin-top: 15px;
+    margin-bottom: 27px;
+    text-transform: uppercase;
+  }
+
   p {
     color: $color-purple;
     font-family: $font-alt;
     font-size: $font-general;
     line-height: 32px;
     width: 444px;
-    margin-bottom: 54px;
-    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 88px;
     font-style: normal;
   }
 
-  span{
 
-  }
 }
 
-.crew__btn{
+.crew__btn {
   display: inline-block;
   position: absolute;
-  width: 132px;
   height: 15px;
   left: 167px;
   top: 791px;
+
+  button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: $color-white;
+    opacity: 0.17;
+    margin-right: 24px;
+    border: none;
+
+    &:hover {
+        opacity: 1;
+        cursor: pointer;
+        border: none;
+    }
+  }
 }
 
-.crew__img{
+.crew__img {
   width: auto;
-  height: auto;
+  margin: 0;
+  position: absolute;
+  left: 734.93px;
+  bottom: 0;
 }
