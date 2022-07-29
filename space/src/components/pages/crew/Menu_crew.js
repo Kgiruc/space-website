@@ -9,7 +9,7 @@ function Menu_crew({menuItem}) {
                             <h3>{item.name}</h3>
                             <p>{item.body}</p>
                         </article>
-                        <img className="crew__img" src={item.img} alt="planet"/>
+                        <img className="crew__img" src={item.img} alt="person"/>
                     </section>
                 })
             }

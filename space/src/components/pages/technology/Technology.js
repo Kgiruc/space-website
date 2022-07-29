@@ -17,11 +17,11 @@ function Technology() {
         setMenuItem(filteredData);
     }
     return (
-        <section className="crew__container">
+        <section className="technology__container">
             <Links />
+            <ButtonsDes  button={buttons} filter={filter} />
             <p className="subhead1"><span>03 </span>SPACE LAUNCH 101</p>
             <Menu_technology menuItem={menuItem} />
-            <ButtonsDes  button={buttons} filter={filter} />
         </section>
     );
 }

@@ -1,0 +1,91 @@
+.technology__container {
+  background-image: url("../../assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+}
+
+.technology__menu__container {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 325px;
+  gap: 150px;
+}
+
+.technology__container__subs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 445px;
+  margin-top: 154px;
+
+  span {
+    color: $color-purple;
+    font-weight: 400;
+    font-size: $font-typical;
+    font-family: $font-alt;
+    line-height: 19.2px;
+  }
+
+  h3 {
+    color: $color-white;
+    font-family: $font-base;
+    line-height: 64.18px;
+    font-size: $font-head3;
+    font-weight: 400;
+    letter-spacing: 0;
+    width: 500px;
+    margin-top: 11px;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+  }
+
+  p {
+    color: $color-purple;
+    font-family: $font-alt;
+    font-size: $font-general;
+    line-height: 32px;
+    width: 444px;
+    height: 192px;
+    font-style: normal;
+  }
+}
+
+.technology__btn {
+  display: inline-block;
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  margin-left: 165px;
+  top: 383px;
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    color: $color-white;
+    font-family: $font-base;
+    font-size: $font-head4;
+    font-weight: 400;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-right: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+
+    &:hover {
+      border: 1px solid rgba(255, 255, 255);
+      cursor: pointer;
+    }
+  }
+}
+
+.technology__img{
+
+}
