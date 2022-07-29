@@ -4,7 +4,7 @@ function ButtonsDes({button, filter}) {
         <div className="technology__btn">
             {
                 button.map((e, i)=>{
-                    return <button type="button" onClick={() =>filter(e)} key={i}>{}</button>
+                    return <button type="button" onClick={() =>filter(e)} key={i}>{e}</button>
                 })
             }
         </div>

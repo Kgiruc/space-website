@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Destination from "./components/pages/destination/Destination";
 import Crew from "./components/pages/crew/Crew";
+import Technology from "./components/pages/technology/Technology";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,7 +19,7 @@ root.render(
           <Route path="/" element={<App />} />
           <Route path="/destination" element={<Destination />} />
           <Route path="/crew" element={<Crew />} />
-          <Route path="/technology" element={<Destination />} />
+          <Route path="/technology" element={<Technology />} />
       </Routes>
   </BrowserRouter>
 );

@@ -1,11 +1,11 @@
 import items from "./Technologylist"
 import {useState} from "react";
 import ButtonsDes from "./Buttons-technology";
-import Menu_crew from "./Menu_crew";
+import Menu_technology from "./Menu_technology";
 import Links from "../../Links"
 
-const device = items.filter(item => item.title === "COMMANDER")
-const allCategories = [...new Set(items.map(item => item.title))];
+const device = items.filter(item => item.id === 1)
+const allCategories = [...new Set(items.map(item => item.id))];
 
 function Technology() {
     const [menuItem, setMenuItem] = useState(device);
@@ -13,14 +13,14 @@ function Technology() {
 
 
     const filter = (button) =>{
-        const filteredData = items.filter(item => item.title === button)
+        const filteredData = items.filter(item => item.id === button)
         setMenuItem(filteredData);
     }
     return (
         <section className="crew__container">
             <Links />
-            <p className="subhead1"><span>02 </span>MEET YOUR CREW</p>
-            <Menu_crew menuItem={menuItem} />
+            <p className="subhead1"><span>03 </span>SPACE LAUNCH 101</p>
+            <Menu_technology menuItem={menuItem} />
             <ButtonsDes  button={buttons} filter={filter} />
         </section>
     );

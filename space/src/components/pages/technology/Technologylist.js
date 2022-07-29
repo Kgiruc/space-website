@@ -4,7 +4,6 @@ import capsule from "../../../assets/technology/image-space-capsule-portrait.jpg
 
 export default [
     {
-        title: 'THE TERMINOLOGY…',
         name: 'LAUNCH VEHICLE',
         body: 'A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from ' +
             'Earth\'s surface to space, usually to Earth orbit or beyond. Our WEB-X carrier' +
@@ -14,7 +13,6 @@ export default [
         id: 1,
     },
     {
-        title: 'THE TERMINOLOGY…',
         name: 'SPACEPORT',
         body: 'A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the ' +
             'seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ' +
@@ -23,7 +21,6 @@ export default [
         id: 2,
     },
     {
-        title: 'THE TERMINOLOGY…',
         name: 'SPACE CAPSULE',
         body: 'A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter ' +
             'the Earth\'s atmosphere without wings. Our capsule is where you\'ll spend your time during the ' +
@@ -31,5 +28,4 @@ export default [
         img: capsule,
         id: 3,
     },
-
 ]
