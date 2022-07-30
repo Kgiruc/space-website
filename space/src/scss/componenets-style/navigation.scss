@@ -71,3 +71,42 @@ a.active{
   border-bottom: 3px solid $color-white;
 }
 
+@media (min-width: 768px) {
+  .links__container{
+
+    ul{
+      margin-top: 0;
+      height: 96px;
+      width: 450px;
+      margin-right: 0;
+      justify-content: center;
+      gap: 37px;
+      align-items: center;
+      text-decoration: none;
+    }
+
+    li{
+      color: $color-white;
+      font-size: calc($font-nav - 2px);
+      font-weight: 400;
+      font-family: $font-alt;
+      letter-spacing: 2.3625px;
+      border: 3px solid transparent;
+      padding: 37px 0;
+      line-height: 17px;
+
+      span{
+        display: none;
+      }
+    }
+  }
+
+  .line__nav{
+    display: none;
+  }
+
+  .menu__container img{
+    margin-top: 24px;
+  }
+}
+

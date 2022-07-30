@@ -40,7 +40,7 @@
   line-height: 32px;
 }
 
-.home__btn{
+.home__btn {
   position: absolute;
   top: 495px;
   right: 0;
@@ -54,9 +54,38 @@
   cursor: pointer;
   border: none;
 
-    &:hover{
-      outline: 88px solid rgba(225,225,225, 0.1);
-      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-      mix-blend-mode: normal;
-    }
+  &:hover {
+    outline: 88px solid rgba(225, 225, 225, 0.1);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    mix-blend-mode: normal;
+  }
+}
+
+@media (min-width: 768px) {
+  .home__container {
+    background-image: url("../../assets/home/background-home-tablet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+
+  .home__container__section {
+    margin-top: 106px;
+    margin-left: 159px;
+    text-align: center;
+  }
+
+  .home__btn{
+    position: absolute;
+    width: 242px;
+    height: 242px;
+    left: 263px;
+    top: 692px;
+  }
+
+
+
 }
