@@ -8,7 +8,7 @@
   position: absolute;
 }
 
-.subhead1{
+.destination__subhead{
   font-size: $font-subhead1;
   font-family: $font-alt;
   line-height: 33.6px;
@@ -32,7 +32,7 @@
   gap: 36px;
   margin-right: 322.5px;
   margin-top: 64px;
-  }
+}
 
 
 .planet__container{
@@ -103,7 +103,6 @@
     line-height: 32.09px;
     width: auto;
   }
-
 }
 
 .planet__img{
@@ -126,5 +125,93 @@
   &:hover {
     border-bottom: 3px solid $color-grey-trans;
     cursor: pointer;
+  }
+}
+
+@media (min-width: 768px) {
+  .destination__container{
+    background-image: url("../../assets/destination/background-destination-tablet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+  }
+
+  .destination__subhead{
+    margin-top: 40px;
+    margin-left: 38.5px;
+    font-size: calc($font-subhead1 - 8px);
+  }
+
+  .planet__container{
+    flex-direction: column;
+    align-items: center;
+    gap: 119px;
+    margin-top: 60px;
+    margin-right: 0;
+  }
+
+  .planet__img{
+    width: 300px;
+    height: 300px;
+  }
+
+  .planet__btn{
+    position: absolute;
+    width: 285.5px;
+    height: 34px;
+    left: 35vw;
+    top: 573px;
+    margin: 0;
+  }
+
+  .planet__container__subs{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 0;
+
+    h2{
+      font-size: calc($font-head2 - 20px);
+      font-family: $font-base;
+      line-height: 91.68px;
+    }
+
+    p{
+      font-size: calc($font-general - 2px);
+      width: 573px;
+      height: 84px;
+      margin-bottom: 49px;
+    }
+
+    hr{
+      width: 573px;
+      margin-left: -8vw;
+    }
+  }
+
+  .planet__results{
+    flex-direction: row;
+    gap:17px;
+
+    span{
+      width: 216px;
+    }
+  }
+
+  .planet__results__points{
+    display: flex;
+    gap: 11px;
+    p{
+      margin-bottom: 0;
+      font-style: normal;
+      font-family: $font-base;
+      font-size: $font-subhead1;
+      color: $color-white;
+      line-height: 32.09px;
+      width: 216px;
+    }
   }
 }
