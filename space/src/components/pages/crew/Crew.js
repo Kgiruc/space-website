@@ -19,7 +19,7 @@ function Crew() {
     return (
         <section className="crew__container">
             <Links />
-            <p className="subhead1"><span>02 </span>MEET YOUR CREW</p>
+            <p className="subhead"><span>02 </span>MEET YOUR CREW</p>
             <Menu_crew menuItem={menuItem} />
             <ButtonsDes  button={buttons} filter={filter} />
         </section>

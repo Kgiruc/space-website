@@ -8,7 +8,7 @@
   position: absolute;
 }
 
-.destination__subhead{
+.subhead{
   font-size: $font-subhead1;
   font-family: $font-alt;
   line-height: 33.6px;
@@ -131,15 +131,9 @@
 @media (min-width: 768px) {
   .destination__container{
     background-image: url("../../assets/destination/background-destination-tablet.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
   }
 
-  .destination__subhead{
+  .subhead{
     margin-top: 40px;
     margin-left: 38.5px;
     font-size: calc($font-subhead1 - 8px);

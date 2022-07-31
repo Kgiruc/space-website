@@ -86,3 +86,70 @@
   left: 734.93px;
   bottom: 0;
 }
+
+@media (min-width: 768px) {
+  .crew__container{
+    background-image: url("../../assets/crew/background-crew-tablet.jpg");
+  }
+
+  .crew__menu__container {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .crew__container__subs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    h4 {
+      font-size: calc($font-head4 - 8px);
+      line-height: 27.5px;
+    }
+
+    h3 {
+      line-height: 45.84px;
+      font-size: calc($font-head3 - 16px);
+      margin-top: 8px;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      width: auto;
+    }
+
+    p {
+      font-size: $font-typical;
+      line-height: 28px;
+      width: auto;
+      height: 84px;
+      font-style: normal;
+      margin-bottom: 0;
+    }
+  }
+
+  .crew__img {
+    width: auto;
+    max-height: 532px;
+    position: static;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .crew__btn{
+    height: 10px;
+    left: 340px;
+    top: 442px;
+    button{
+      margin-right: 16px;
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

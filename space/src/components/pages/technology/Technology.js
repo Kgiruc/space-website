@@ -20,7 +20,7 @@ function Technology() {
         <section className="technology__container">
             <Links />
             <ButtonsDes  button={buttons} filter={filter} />
-            <p className="subhead1"><span>03 </span>SPACE LAUNCH 101</p>
+            <p className="subhead"><span>03 </span>SPACE LAUNCH 101</p>
             <Menu_technology menuItem={menuItem} />
         </section>
     );
