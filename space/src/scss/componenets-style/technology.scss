@@ -29,6 +29,7 @@
     font-size: $font-typical;
     font-family: $font-alt;
     line-height: 19.2px;
+    letter-spacing: 2.7px;
   }
 
   h3 {
@@ -64,7 +65,7 @@
   top: 383px;
   button {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 32px;
     justify-content: center;
@@ -86,10 +87,73 @@
   }
 }
 
-.technology__img{
-
-}
 
 @media (max-width: 768px) {
+  .technology__container{
+    background-image: url("../../assets/technology/background-technology-tablet.jpg");
+  }
 
+  .technology__img{
+    position: absolute;
+    width: auto;
+    height: 310px;
+    left: 0;
+    top: 220px;
+  }
+
+  .technology__menu__container{
+   margin: 0;
+  }
+
+  .technology__container__subs{
+    position: absolute;
+    width: 458px;
+    height: 237px;
+    left: 155px;
+    top: 690px;
+    margin: 0;
+    text-align: center;
+
+    span {
+      margin: 0 auto;
+    }
+
+    h3 {
+      line-height: 45.84px;
+      font-size: calc($font-head3 - 16px);
+      width: auto;
+      margin: 16px auto 16px auto;
+    }
+
+    p {
+      font-size: $font-typical;
+      line-height: 28px;
+      width: 458px;
+      height: 140px;
+      font-style: normal;
+    }
+  }
+
+  .technology__btn {
+    display: flex;
+    position: absolute;
+    top: 586px;
+    width: auto;
+    height: 60px;
+    left: 263px;
+    margin-left: auto;
+    margin-right: auto;
+    button {
+      width: 60px;
+      height: 60px;
+      margin-right: 16px;
+
+      &:hover {
+        border: none;
+        cursor: pointer;
+        background-color: $color-white;
+        color: $color-black;
+      }
+    }
+  }
 }
