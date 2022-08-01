@@ -128,7 +128,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .destination__container{
     background-image: url("../../assets/destination/background-destination-tablet.jpg");
   }

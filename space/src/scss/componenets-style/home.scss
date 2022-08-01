@@ -61,7 +61,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .home__container {
     background-image: url("../../assets/home/background-home-tablet.jpg");
     background-repeat: no-repeat;

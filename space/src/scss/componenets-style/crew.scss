@@ -87,7 +87,7 @@
   bottom: 0;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .crew__container{
     background-image: url("../../assets/crew/background-crew-tablet.jpg");
   }
@@ -136,10 +136,13 @@
   .crew__img {
     width: auto;
     max-height: 532px;
-    position: static;
-    margin-top: 90px;
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 48vh auto;
+    //left: 22vw;
   }
 
   .crew__btn{

@@ -71,7 +71,7 @@ a.active{
   border-bottom: 3px solid $color-white;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .links__container{
 
     ul{
