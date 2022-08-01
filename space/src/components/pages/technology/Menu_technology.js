@@ -10,6 +10,7 @@ function Menu_technology({menuItem}) {
                             <p>{item.body}</p>
                         </article>
                         <img className="technology__img" src={item.img} alt="device"/>
+                        <img className="technology__img__tab" src={item.img_tablet} alt="device"/>
                     </section>
                 })
             }
