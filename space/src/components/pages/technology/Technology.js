@@ -2,7 +2,9 @@ import items from "./Technologylist"
 import {useState} from "react";
 import ButtonsDes from "./Buttons-technology";
 import Menu_technology from "./Menu_technology";
-import Links from "../../Links"
+import Navlinks from "../../navigation/Nav-links";
+import Navigation from "../../navigation/navigation/Navigation";
+
 
 const device = items.filter(item => item.id === 1)
 const allCategories = [...new Set(items.map(item => item.id))];
@@ -18,7 +20,7 @@ function Technology() {
     }
     return (
         <section className="technology__container">
-            <Links />
+            <Navigation />
             <ButtonsDes  button={buttons} filter={filter} />
             <p className="subhead"><span>03 </span>SPACE LAUNCH 101</p>
             <Menu_technology menuItem={menuItem} />

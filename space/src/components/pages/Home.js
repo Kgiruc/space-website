@@ -1,10 +1,12 @@
-import Links from "../Links";
+
 import {Link} from "react-router-dom"
+import Navlinks from "../navigation/Nav-links";
+import Navigation from "../navigation/navigation/Navigation";
 
 function Home() {
     return (
         <div className="home__container">
-            <Links />
+            <Navigation />
             <section className="home__container__section">
                 <span>SO, YOU WANT TO TRAVEL TO</span>
                 <h1>SPACE</h1>

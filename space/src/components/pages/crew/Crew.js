@@ -2,7 +2,9 @@ import items from "./Crewlist"
 import {useState} from "react";
 import ButtonsDes from "./Buttons-crew";
 import Menu_crew from "./Menu_crew";
-import Links from "../../Links"
+import Navlinks from "../../navigation/Nav-links";
+import Navigation from "../../navigation/navigation/Navigation";
+
 
 const person = items.filter(item => item.title === "COMMANDER")
 const allCategories = [...new Set(items.map(item => item.title))];
@@ -18,7 +20,7 @@ function Crew() {
     }
     return (
         <section className="crew__container">
-            <Links />
+            <Navigation />
             <p className="subhead"><span>02 </span>MEET YOUR CREW</p>
             <Menu_crew menuItem={menuItem} />
             <ButtonsDes  button={buttons} filter={filter} />
