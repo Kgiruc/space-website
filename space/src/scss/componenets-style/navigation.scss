@@ -118,6 +118,14 @@ a.active{
 @media (max-width: 400px) {
   .mobile-nav{
     display: flex;
+    flex-direction: column;
+      img{
+        width: 24px;
+        height: 21px;
+        position: absolute;
+        margin-top: 33px;
+        right: 24px;
+      }
   }
 
   .links__container{
