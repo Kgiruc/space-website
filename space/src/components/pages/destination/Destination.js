@@ -2,8 +2,7 @@ import items from "./Planetlist"
 import {useState} from "react";
 import ButtonsDes from "./Buttons-des";
 import Menu_des from "./Menu_des";
-import Navlinks from "../../navigation/Nav-links";
-import Navigation from "../../navigation/navigation/Navigation";
+import Navigation from "../../navigation/Navigation";
 
 
 const planet = items.filter(item => item.title === "MOON")

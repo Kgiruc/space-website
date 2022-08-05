@@ -1,7 +1,7 @@
 
 import {Link} from "react-router-dom"
-import Navlinks from "../navigation/Nav-links";
-import Navigation from "../navigation/navigation/Navigation";
+
+import Navigation from "../navigation/Navigation";
 
 function Home() {
     return (

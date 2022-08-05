@@ -2,8 +2,7 @@ import items from "./Crewlist"
 import {useState} from "react";
 import ButtonsDes from "./Buttons-crew";
 import Menu_crew from "./Menu_crew";
-import Navlinks from "../../navigation/Nav-links";
-import Navigation from "../../navigation/navigation/Navigation";
+import Navigation from "../../navigation/Navigation";
 
 
 const person = items.filter(item => item.title === "COMMANDER")

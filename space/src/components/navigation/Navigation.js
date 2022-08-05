@@ -1,5 +1,6 @@
-import Logo from "../../../assets/shared/logo.svg";
-import Navlinks from "../Nav-links";
+import Logo from "../../assets/shared/logo.svg";
+import Navlinks from "../navigation/Nav-links";
+import MobileNav from "./Mobile-nav";
 
 function Navigation() {
     return (
@@ -8,6 +9,7 @@ function Navigation() {
             <hr className="line__nav"></hr>
             <nav className="links__container">
              <Navlinks />
+                <MobileNav />
             </nav>
         </header>
     );

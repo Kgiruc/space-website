@@ -1,6 +1,10 @@
+import Navlinks from "./Nav-links";
+
 function MobileNav() {
     return (
-        <div></div>
+        <nav className="mobile-nav">
+        <Navlinks />
+        </nav>
     );
 }
 

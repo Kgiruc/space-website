@@ -71,6 +71,10 @@ a.active{
   border-bottom: 3px solid $color-white;
 }
 
+.mobile-nav{
+  display: none;
+}
+
 @media (max-width: 900px) {
   .links__container{
 
@@ -110,3 +114,13 @@ a.active{
   }
 }
 
+
+@media (max-width: 400px) {
+  .mobile-nav{
+    display: flex;
+  }
+
+  .links__container{
+    display: none;
+  }
+}

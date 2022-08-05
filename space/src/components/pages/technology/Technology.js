@@ -2,8 +2,8 @@ import items from "./Technologylist"
 import {useState} from "react";
 import ButtonsDes from "./Buttons-technology";
 import Menu_technology from "./Menu_technology";
-import Navlinks from "../../navigation/Nav-links";
-import Navigation from "../../navigation/navigation/Navigation";
+
+import Navigation from "../../navigation/Navigation";
 
 
 const device = items.filter(item => item.id === 1)
