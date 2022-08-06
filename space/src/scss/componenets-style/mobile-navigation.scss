@@ -1,0 +1,54 @@
+@media (max-width: 400px) {
+  .mobile-nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 75%;
+    color: red;
+    img {
+      position: absolute;
+      right: 5%;
+    }
+  }
+
+  .menu__container .mobile-nav__img__hamburger {
+    width: 24px;
+    height: 21px;
+    margin-top: 33px;
+  }
+
+  .menu__container .mobile-nav__img__close {
+    width: 19.09px;
+    height: 19.09px;
+    margin-top: 33.95px;
+  }
+
+  .mobile-nav ul {
+    position: absolute;
+    top: 118px;
+    right: 0;
+    height: 100%;
+    background-color: $color-white-trans;
+    backdrop-filter: blur(81.5485px);
+
+    li {
+      color: $color-white;
+      font-size: $font-nav;
+      font-weight: 400;
+      font-family: $font-alt;
+      letter-spacing: 2.7px;
+      border: 3px solid red;
+      padding: 0 0;
+
+      span {
+        font-weight: 700;
+        border: 3px solid transparent;
+      }
+    }
+  }
+
+
+  .links__container {
+    display: none;
+  }
+}

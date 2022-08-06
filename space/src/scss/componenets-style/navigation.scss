@@ -1,31 +1,31 @@
-.menu__container{
+.menu__container {
   display: flex;
   justify-content: space-between;
   margin-left: 55px;
   position: relative;
 
-  img{
-      margin-top: 64px;
-      width: 48px;
-      height: 48px;
-    }
+  img {
+    margin-top: 64px;
+    width: 48px;
+    height: 48px;
+  }
 }
 
-.line__nav{
+.line__nav {
   max-height: 0;
   color: $color-white;
-  width:473px;
-  text-align:left;
-  margin-left:107px;
+  width: 473px;
+  text-align: left;
+  margin-left: 107px;
   margin-top: 88px;
   opacity: 0.25;
   position: absolute;
   z-index: 10;
 }
 
-.links__container{
+.links__container {
 
-  ul{
+  ul {
     display: flex;
     margin-top: 40px;
     background-color: $color-white-trans;
@@ -39,7 +39,7 @@
     text-decoration: none;
   }
 
-  li{
+  li {
     color: $color-white;
     font-size: $font-nav;
     font-weight: 400;
@@ -48,37 +48,39 @@
     border: 3px solid transparent;
     padding: 37px 0;
 
-      span{
-        font-weight: 700;
-        border: 3px solid transparent;
-      }
+    span {
+      font-weight: 700;
+      border: 3px solid transparent;
+    }
   }
 }
 
-.menu__container a{
+.menu__container a {
   text-decoration: none;
 
-  :hover{
+  :hover {
     border-bottom: 3px solid $color-grey-trans;
-      span{
-        border-bottom: 3px solid transparent;
-      }
+
+    span {
+      border-bottom: 3px solid transparent;
+    }
   }
 
 
 }
-a.active{
+
+a.active {
   border-bottom: 3px solid $color-white;
 }
 
-.mobile-nav{
+.mobile-nav {
   display: none;
 }
 
 @media (max-width: 900px) {
-  .links__container{
+  .links__container {
 
-    ul{
+    ul {
       margin-top: 0;
       height: 96px;
       width: 450px;
@@ -89,7 +91,7 @@ a.active{
       text-decoration: none;
     }
 
-    li{
+    li {
       color: $color-white;
       font-size: calc($font-nav - 2px);
       font-weight: 400;
@@ -99,35 +101,29 @@ a.active{
       padding: 37px 0;
       line-height: 17px;
 
-      span{
+      span {
         display: none;
       }
     }
   }
 
-  .line__nav{
+  .line__nav {
     display: none;
   }
 
-  .menu__container img{
+  .menu__container img {
     margin-top: 24px;
   }
 }
 
 
 @media (max-width: 400px) {
-  .mobile-nav{
-    display: flex;
-    flex-direction: column;
-      img{
-        width: 24px;
-        height: 21px;
-        margin-top: 33px;
-        cursor: pointer;
-      }
-  }
+  .menu__container {
+    margin-left: 24px;
 
-  .links__container{
-    display: none;
+    img {
+      width: 40px;
+      height: 40px;
+    }
   }
 }

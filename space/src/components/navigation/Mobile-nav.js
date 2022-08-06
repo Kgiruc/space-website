@@ -7,13 +7,13 @@ function MobileNav() {
 
     const [open, setOpen] = useState(false);
 
-    const hamburgerIcon = <img
+    const hamburgerIcon = <img  className="mobile-nav__img__hamburger"
                             src={hamburger}
                             alt="menu mobile"
                             onClick={() => setOpen(true)}
                             />
 
-    const closeIcon = <img
+    const closeIcon = <img  className="mobile-nav__img__close"
                             src={close}
                             alt="menu mobile close"
                             onClick={() => setOpen(false)}
