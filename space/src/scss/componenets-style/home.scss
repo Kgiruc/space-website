@@ -87,7 +87,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
   .home__container {
     background-image: url("../../assets/home/background-home-mobile.jpg");
@@ -100,7 +100,8 @@
   }
 
   .home__container__section {
-    margin-left: 24px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 48px;
     width: 327px;
     height: 276px;
@@ -127,20 +128,20 @@
   .home__btn {
     position: absolute;
     top: 469px;
-    margin-right: 112px;
-    margin-left: 113px;
+    margin-right: auto;
+    margin-left: auto;
     left: 0;
     width: 150px;
     height: 150px;
+    background-color: $color-white;
+    border: none;
     border-radius: 50%;
     font-family: $font-base;
     font-size: calc($font-head4 - 12px);
     letter-spacing: 1.25px;
 
     &:hover {
-      outline: 88px solid rgba(225, 225, 225, 0.1);
-      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-      mix-blend-mode: normal;
+      outline: none;
     }
   }
 }
