@@ -214,15 +214,16 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 500px) {
   .destination__container{
     background-image: url("../../assets/destination/background-destination-mobile.jpg");
+    height: 100vh;
   }
 
   .subhead{
     margin-top: 24px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    margin-left: 20vw;
     font-size: calc($font-subhead1 - 12px);
   }
 
@@ -240,54 +241,60 @@
     height: 170px;
   }
 
-  .planet__btn {
-    position: absolute;
-    width: 237.5px;
-    height: 28px;
-    left: 69px;
-    top: 335px;
-    margin: 0;
+  .planet_button{
+    gap: 26px;
     line-height: 16.8px;
+    letter-spacing: 2.36px;
+
     font-size: calc($font-typical - 2px);
   }
 
+  .planet__btn {
+    position: absolute;
+    height: 28px;
+    left: 69px;
+    top: 335px;
+    width: auto;
+    margin-left: -5vw;
+  }
+
   .planet__container__subs{
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    margin-top: 0;
+    width: auto;
 
     h2{
-      font-size: calc($font-head2 - 20px);
-      font-family: $font-base;
-      line-height: 91.68px;
+      font-size: $font-head3;
+      line-height: 64.18px;
     }
 
     p{
-      font-size: calc($font-general - 2px);
-      width: 573px;
-      height: 84px;
-      margin-bottom: 49px;
+      font-size: calc($font-general - 3px);
+      width: 327px;
+      height: 125px;
+      margin-bottom: 32px;
     }
 
     hr{
-      width: 573px;
-      margin-left: -8vw;
+      width: 327px;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
   .planet__results{
-    flex-direction: row;
-    gap:17px;
+    flex-direction: column;
+    gap:76px;
 
     span{
-      width: 216px;
+      width: auto;
+
     }
   }
 
   .planet__results__points{
     display: flex;
-    gap: 11px;
+    flex-direction: column;
+    gap: 61px;
+    margin-top: -90px;
     p{
       margin-bottom: 0;
       font-style: normal;
@@ -295,7 +302,21 @@
       font-size: $font-subhead1;
       color: $color-white;
       line-height: 32.09px;
-      width: 216px;
+      width: auto;
+      height: auto;
+    }
+  }
+}
+
+
+@media (max-height: 890px) {
+  .destination__container{
+    height: auto;
+  }
+
+  .planet__results__points {
+    :last-child {
+      margin-bottom: 50px;
     }
   }
 }
