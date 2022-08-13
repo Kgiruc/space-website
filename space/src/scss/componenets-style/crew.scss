@@ -175,7 +175,7 @@
 
   .crew__container__subs {
     width: 327px;
-    margin-top: 90vh;
+    margin-top: 70vh;
     h4 {
       font-size: calc($font-head4 - 16px);
       line-height: 18.34px;
@@ -209,8 +209,9 @@
 
   .crew__btn{
     height: 10px;
-    left: 340px;
-    top: 442px;
+    left: calc(144px + 16px);
+    top: 394px;
+
     button{
       margin-right: 16px;
       width: 10px;
