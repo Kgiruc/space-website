@@ -16,9 +16,10 @@
   margin-left: 166.5px;
   margin-top: 76px;
   margin-right: 0;
-  display: inline-block;
   color: $color-white;
   font-weight: 400;
+  display: flex;
+  gap: 18px;
 
     span{
       opacity: 0.25;
@@ -222,9 +223,12 @@
 
   .subhead{
     margin-top: 24px;
-    text-align: center;
-    margin-left: 20vw;
     font-size: calc($font-subhead1 - 12px);
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    line-height: 19.2px;
+    margin-left: -0.3vw;
   }
 
   .planet__container{

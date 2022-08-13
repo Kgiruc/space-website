@@ -155,3 +155,66 @@
     }
   }
 }
+@media (max-width: 500px) {
+  .crew__container{
+    background-image: url("../../assets/crew/background-crew-mobile.jpg");
+    height: 100vh;
+  }
+
+  .crew__menu__container {
+    display: flex;
+    flex-direction: column;
+    height: 195px;
+    width: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .crew__container__subs {
+    width: 327px;
+    margin-top: 90vh;
+    h4 {
+      font-size: calc($font-head4 - 16px);
+      line-height: 18.34px;
+    }
+
+    h3 {
+      margin-top: 8px;
+      line-height: 27.5px;
+      font-size: calc($font-head3 - 32px);
+    }
+
+    p {
+      font-size: calc($font-typical - 1px);
+      line-height: 25px;
+      width: 327px;
+      height: 84px;
+    }
+  }
+
+  .crew__img {
+    max-width: 177.12px;
+    max-height: 222px;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 139px auto;
+
+  }
+
+  .crew__btn{
+    height: 10px;
+    left: 340px;
+    top: 442px;
+    button{
+      margin-right: 16px;
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

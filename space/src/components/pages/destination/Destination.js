@@ -20,7 +20,10 @@ function Destination() {
     return (
         <section className="destination__container">
             <Navigation />
-            <p className="subhead"><span>01 </span>PICK YOUR DESTINATION</p>
+            <div className="subhead">
+                <span>01 </span>
+                <p>PICK YOUR DESTINATION</p>
+            </div>
             <ButtonsDes  button={buttons} filter={filter} />
             <Menu_des menuItem={menuItem} />
         </section>
