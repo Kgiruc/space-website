@@ -3,7 +3,7 @@ import mars from "../../../assets/destination/image-mars.png"
 import europa from "../../../assets/destination/image-europa.png"
 import titan from "../../../assets/destination/image-titan.png"
 
-export default [
+const PlanetAll = [
     {
         title: 'MOON',
         body: 'See our planet as you’ve never seen it before. ' +
@@ -45,3 +45,5 @@ export default [
         id: 4,
     },
 ]
+
+export default PlanetAll;

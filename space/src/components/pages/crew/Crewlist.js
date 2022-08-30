@@ -3,7 +3,7 @@ import mission_spec from "../../../assets/crew/image-mark-shuttleworth.webp"
 import pilot from "../../../assets/crew/image-victor-glover.webp"
 import engineer from "../../../assets/crew/image-anousheh-ansari.webp"
 
-export default [
+const CrewAll = [
     {
         title: 'COMMANDER',
         name: 'DOUGLAS HURLEY',
@@ -41,3 +41,5 @@ export default [
         id: 4,
     },
 ]
+
+export default CrewAll;

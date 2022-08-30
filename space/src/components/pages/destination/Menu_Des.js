@@ -1,4 +1,4 @@
-function Menu_des({menuItem}) {
+function MenuDestination({menuItem}) {
     return (
         <>
             {
@@ -25,4 +25,4 @@ function Menu_des({menuItem}) {
     );
 }
 
-export default Menu_des;
+export default MenuDestination;

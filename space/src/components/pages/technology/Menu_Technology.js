@@ -1,4 +1,4 @@
-function Menu_technology({menuItem}) {
+function Menu_Technology({menuItem}) {
     return (
         <>
             {
@@ -18,4 +18,4 @@ function Menu_technology({menuItem}) {
     );
 }
 
-export default Menu_technology;
+export default Menu_Technology;

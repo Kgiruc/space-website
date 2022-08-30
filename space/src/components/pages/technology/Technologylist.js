@@ -6,7 +6,7 @@ import port__tablet from "../../../assets/technology/image-spaceport-landscape.j
 import capsule__tablet from "../../../assets/technology/image-space-capsule-landscape.jpg";
 
 
-export default [
+const TechnologyAll = [
     {
         name: 'LAUNCH VEHICLE',
         body: 'A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from ' +
@@ -36,3 +36,5 @@ export default [
         id: 3,
     },
 ]
+
+export default TechnologyAll;

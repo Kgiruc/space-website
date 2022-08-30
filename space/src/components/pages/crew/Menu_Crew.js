@@ -1,4 +1,4 @@
-function Menu_crew({menuItem}) {
+function Menu_Crew({menuItem}) {
     return (
         <>
             {
@@ -17,4 +17,4 @@ function Menu_crew({menuItem}) {
     );
 }
 
-export default Menu_crew;
+export default Menu_Crew;

@@ -1,7 +1,7 @@
 import items from "./Planetlist"
 import {useState} from "react";
 import ButtonsDes from "./Buttons-des";
-import Menu_des from "./Menu_des";
+import MenuDestination from "./Menu_Des";
 import Navigation from "../../navigation/Navigation";
 
 
@@ -9,7 +9,7 @@ const planet = items.filter(item => item.title === "MOON")
 const allCategories = [...new Set(items.map(item => item.title))];
 
 function Destination() {
-    const [menuItem, setMenuItem] = useState(planet);
+    const [menuItem, setMenuItem] = useState(planet); // eslint-disable-next-line
     const [buttons, setButtons] = useState(allCategories);
 
 
@@ -25,7 +25,7 @@ function Destination() {
                 <p>PICK YOUR DESTINATION</p>
             </div>
             <ButtonsDes  button={buttons} filter={filter} />
-            <Menu_des menuItem={menuItem} />
+            <MenuDestination menuItem={menuItem} />
         </section>
     );
 }
