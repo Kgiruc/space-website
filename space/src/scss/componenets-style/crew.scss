@@ -144,10 +144,11 @@
     margin: 48vh auto;
   }
 
-  .crew__btn{
+  .crew__btn{;
     height: 10px;
-    left: 340px;
+    left: 44vw;
     top: 442px;
+    width: 112px;
     button{
       margin-right: 16px;
       width: 10px;
@@ -175,7 +176,7 @@
 
   .crew__container__subs {
     width: 327px;
-    margin-top: 70vh;
+    margin-top: 75vh;
     h4 {
       font-size: calc($font-head4 - 16px);
       line-height: 18.34px;
@@ -203,14 +204,14 @@
     top: 0;
     right: 0;
     left: 0;
-    margin: 139px auto;
+    margin: 20vh auto;
 
   }
 
   .crew__btn{
     height: 10px;
-    left: calc(144px + 16px);
-    top: 394px;
+    left: 38%;
+    top: 50vh;
 
     button{
       margin-right: 16px;
